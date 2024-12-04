@@ -18,10 +18,10 @@ export default function Abt(){
     <h2 className='text-xl sm:text-2xl mb-4 flex justify-center text-bold text-red-600'>Technical Skills</h2>
     <p className="text-[16px] sm:text-[18px] mr-4 ml-4 mb-6" >I’m proficient in a range of technologies and tools that help bring ideas to life, including:</p>
 <ul className='list-disc text-black pl-6 space-y-2 ml-6 text-[16px] sm:text-[18px]'>
-<li >Languages: <span className="text-green-600 font-monaco text-xl">JavaScript, Python</span> </li>
-<li>Frameworks & libraries: <span className="text-green-600 font-monaco text-xl">React.js, Node.js, MERN stack</span> </li>
-<li>Styling & Design: <span className="text-green-600 font-monaco text-xl">HTML, CSS, Tailwind CSS</span> </li>
-<li>Version Control: <span className="text-green-600 font-monaco text-xl">Git</span> </li>
+<li >Languages: <span className="text-green-600 font-monaco text-[18px] sm:text-xl">JavaScript, Python</span> </li>
+<li>Frameworks & libraries: <span className="text-green-600 font-monaco text-[18px] sm:text-xl">React.js, Node.js, MERN stack</span> </li>
+<li>Styling & Design: <span className="text-green-600 font-monaco text-[18px] sm:text-xl">HTML, CSS, Tailwind CSS</span> </li>
+<li>Version Control: <span className="text-green-600 font-monaco text-[18px] sm:text-xl">Git</span> </li>
 </ul>
 </div>
 <div data-aos="slide-up" data-duration='2000'  className=' pt-[5vh] shadow-lg shadow-black rounded-all bg-gray-200 mb-4 h-auto lg:h-[50vh]'>

@@ -7,8 +7,8 @@ export default function Skills(){
     const newData=data.map(item=>{
         return(
             <div >
-            <img className='h-[10vh]' src={item.image} alt=''/>
-            <p className='text-[10px] sm:text-[12px] lg:text-[14px] text-black'>{item.name}</p>
+            <img className='portrait:h-[10vh] landscape:h-[15vh]' src={item.image} alt=''/>
+            <p className='text-[12px] sm:text-[14px] lg:text-[16px] text-black'>{item.name}</p>
             </div>
     
         )
@@ -21,7 +21,7 @@ export default function Skills(){
 
         <div className='flex justify-center items-center mt-4 '>
 
-<div className=' grid grid-cols-4 gap-4 lg:w-[50vw]  ml-2 mr-2'>{newData}</div>
+<div className=' grid grid-cols-4 gap-4 lg:w-[50vw] w-[100vw] ml-2 mr-2'>{newData}</div>
 
 </div>
         </div>

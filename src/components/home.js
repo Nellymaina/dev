@@ -3,6 +3,7 @@ import image from '../images/home.png'
 import { Element } from 'react-scroll'
 import About from './about'
 import Abt from './about2.js'
+import Cert from './cert.js'
 import Skills from './skills'
 import Portfolio from './portfolio'
 import Contact from './contact'
@@ -16,18 +17,19 @@ export default function Home(){
 
   useEffect(()=>{
 AOS.init({
-  duration: 1000,
-  offset: 100
+  duration: 2000,
+  delay:100,
+  offset:0
 })
   },[])
     
     return(
       <div className='h-auto pt-16'>
-        <div className='relative p-2  portrait:min-h-[90vh]  landscape:min-h-[120vh] landscape:sm:max-h[100vh] landscape:md:min-h[100vh] landscape:lg:min-h-[85vh]'>
+        <div className='relative p-2 home portrait:min-h-[90vh]  landscape:min-h-[120vh] landscape:sm:max-h[100vh] landscape:md:min-h[100vh] landscape:lg:min-h-[85vh]'>
 
 
-<div className='absolute top-0 left-0 w-1/3 h-20 border-t-4 border-l-4 border-golden'></div>
-<div className='absolute bottom-0 right-0 w-1/3 h-20 border-b-4 border-r-4 border-golden'></div>
+<div className='absolute top-0 left-0 w-1/2 sm:w-1/3 h-20 border-t-4 border-l-4 border-golden'></div>
+<div className='absolute bottom-0 right-0 w-1/2 sm:w-1/3 h-20 border-b-4 border-r-4 border-golden'></div>
 
 
 
@@ -55,11 +57,12 @@ AOS.init({
 
 </div>
 
-<Element data-aos="slide-up" data-duration='2000' data-delay= '1000' data-aos-easing="ease" className='box' name="about"><About /></Element>
+<div data-aos="zoom-in"  data-aos-easing="ease" className='box'><Element  name="about"><About /></Element></div>
 <Abt />
-<Element  data-aos="slide-up" data-duration='2000' data-aos-easing="ease" className='box' name="skills"> <Skills /> </Element>
-<Element data-aos="slide-up" data-duration='2000' data-aos-easing="ease" className='box' name='portfolio'><Portfolio/></Element>
-<Element data-aos="slide-up" data-duration='2000' data-aos-easing="ease" className='box' name='contact'><Contact/></Element>
+<Cert />
+<Element  data-aos="zoom-in"  data-aos-easing="ease" className='box' name="skills"> <Skills /> </Element>
+<Element data-aos="zoom-in"  data-aos-easing="ease" className='box' name='portfolio'><Portfolio/></Element>
+<Element data-aos="zoom-in"  data-aos-easing="ease" className='box' name='contact'><Contact/></Element>
 <Footer />
         </div>
     )

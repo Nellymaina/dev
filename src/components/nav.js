@@ -4,6 +4,8 @@ import { GitHub } from '@mui/icons-material'
 import { MenuOpenRounded } from '@mui/icons-material'
 import {Link as Li} from 'react-scroll'
 import {motion, AnimatePresence} from 'framer-motion'
+
+
 export default function Navbar(){
 
   const [menu, setMenu]=useState(true)
@@ -11,6 +13,8 @@ export default function Navbar(){
   function toggleMenu(){
     setMenu(prevState=>!prevState)
   }
+
+  
 
 
   return (
@@ -40,10 +44,10 @@ export default function Navbar(){
           transition={{duration:0.3}}
           >
             <div className=' text-xl bg-black h-screen w-[80vw] sm:[50vw] lg-[40vw]'>
-          <Li to="about" className='border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text- '  onClick={toggleMenu}>About </Li>
-          <Li to="skills" className='border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={toggleMenu}>Skills</Li>
-          <Li to="portfolio" className='border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={toggleMenu}>Portfolio</Li>
-          <Li to="contact" className='border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={toggleMenu}>Contact</Li>
+          <Li to="about" offset={-120} smooth={true} duration={500} className='border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black '  onClick={toggleMenu}>About </Li>
+          <Li to="skills" offset={-120} smooth={true} duration={500} className='border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={toggleMenu}>Skills</Li>
+          <Li to="portfolio"  offset={-120} smooth={true} duration={500} className='border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={toggleMenu}>Portfolio</Li>
+          <Li to="contact" offset={-120} smooth={true} duration={500} className='border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={toggleMenu}>Contact</Li>
           </div>
           </motion.div>
           }
