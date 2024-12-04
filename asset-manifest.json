@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/dev/static/css/main.cfb5f910.css",
-    "main.js": "/dev/static/js/main.20de838d.js",
+    "main.css": "/dev/static/css/main.b1804085.css",
+    "main.js": "/dev/static/js/main.7b4e0852.js",
+    "static/media/port.png": "/dev/static/media/port.e9f09139026bca416a1b.png",
     "static/media/image10.png": "/dev/static/media/image10.2404ebc6a1b7f7ee9497.png",
     "static/media/skills5.png": "/dev/static/media/skills5.6170bacefd8a1f69ca74.png",
     "static/media/skills6.png": "/dev/static/media/skills6.e811791b132d8b40dbcb.png",
     "static/media/skills9.png": "/dev/static/media/skills9.2f2532db663fd5ec5f95.png",
     "static/media/home.png": "/dev/static/media/home.64481fca7240c0354ace.png",
+    "static/media/AI.png": "/dev/static/media/AI.8ae7a7800de9d49dc239.png",
     "static/media/skills2.png": "/dev/static/media/skills2.b370e224d40f44640360.png",
+    "static/media/SE.png": "/dev/static/media/SE.160d58e8c36417a1f954.png",
     "static/media/skills10.png": "/dev/static/media/skills10.5871a299dfc6d28cd065.png",
     "static/media/skills11.png": "/dev/static/media/skills11.1d7b133e22ffe4829da6.png",
     "static/media/skills12.png": "/dev/static/media/skills12.9f33c557b92e4e2e1cc8.png",
@@ -17,11 +20,11 @@
     "static/media/skills4.png": "/dev/static/media/skills4.39a0f4c3d981885c64f8.png",
     "static/media/skills7.png": "/dev/static/media/skills7.bb13ebd9561a6ee645c2.png",
     "index.html": "/dev/index.html",
-    "main.cfb5f910.css.map": "/dev/static/css/main.cfb5f910.css.map",
-    "main.20de838d.js.map": "/dev/static/js/main.20de838d.js.map"
+    "main.b1804085.css.map": "/dev/static/css/main.b1804085.css.map",
+    "main.7b4e0852.js.map": "/dev/static/js/main.7b4e0852.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfb5f910.css",
-    "static/js/main.20de838d.js"
+    "static/css/main.b1804085.css",
+    "static/js/main.7b4e0852.js"
   ]
 }
