@@ -8,16 +8,16 @@ export default function Skills(){
         return(
             <div >
             <img className='portrait:h-[10vh] landscape:h-[15vh]' src={item.image} alt=''/>
-            <p className='text-[12px] sm:text-[14px] lg:text-[16px] text-black'>{item.name}</p>
+            <p className='text-[12px] sm:text-[14px] lg:text-[16px] text-luminousBlue'>{item.name}</p>
             </div>
     
         )
     })
 
     return (
-<div className='pt-[16vh]   max-h-[100vh] w-full '>
+<div className='pt-[16vh] h-auto w-full '>
 
-<h2 className=' sm:text-2xl text-xl  inset-0 sm:w-[25vw] w-[50vw] font-bold flex justify-center bg-blue-100 text-black'>Skills</h2>
+<h2 className=' sm:text-2xl text-xl  inset-0 sm:w-[25vw] w-[50vw] font-bold flex justify-center underline  text-neonGreen '>Skills</h2>
 
         <div className='flex justify-center items-center mt-4 '>
 

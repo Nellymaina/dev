@@ -19,7 +19,7 @@ export default function Navbar(){
 
   return (
     <div>
-    <div className='border-4xl border-red-100 w-full z-[50] fixed bg-gray-100' >
+    <div className='border-4xl border-red-100 w-full z-[50] fixed bg-black' >
       
           <div className='flex justify-between p-4 w-full '>
         

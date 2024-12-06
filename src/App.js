@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter basename="/dev">
     <Navbar />
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route path='/' element={<Home />} className="text-white" />
       <Route path='SECertification' element={<Certification1 />}/>
       <Route path="AICEcertification" element={<Blog />}/>
     </Routes>
