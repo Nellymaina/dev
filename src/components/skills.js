@@ -17,7 +17,7 @@ export default function Skills(){
     return (
 <div className='pt-[16vh] h-auto w-full '>
 
-<h2 className=' sm:text-2xl text-xl  inset-0 sm:w-[25vw] w-[50vw] font-bold flex justify-center underline  text-neonGreen '>Skills</h2>
+<h2 className=' sm:text-2xl text-xl md:text-3xl inset-0 sm:w-[25vw] w-[50vw] font-bold flex justify-center underline  text-neonGreen '>Skills</h2>
 
         <div className='flex justify-center items-center mt-4 '>
 
