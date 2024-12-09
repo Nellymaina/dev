@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev/static/css/main.da0943be.css",
-    "main.js": "/dev/static/js/main.8e5d3ea0.js",
+    "main.css": "/dev/static/css/main.a27a7be0.css",
+    "main.js": "/dev/static/js/main.e5de0dc9.js",
     "static/media/about1.png": "/dev/static/media/about1.b3b98f5fa0abd2788226.png",
     "static/media/skills5.png": "/dev/static/media/skills5.6170bacefd8a1f69ca74.png",
     "static/media/skills6.png": "/dev/static/media/skills6.e811791b132d8b40dbcb.png",
@@ -19,11 +19,11 @@
     "static/media/skills4.png": "/dev/static/media/skills4.39a0f4c3d981885c64f8.png",
     "static/media/skills7.png": "/dev/static/media/skills7.bb13ebd9561a6ee645c2.png",
     "index.html": "/dev/index.html",
-    "main.da0943be.css.map": "/dev/static/css/main.da0943be.css.map",
-    "main.8e5d3ea0.js.map": "/dev/static/js/main.8e5d3ea0.js.map"
+    "main.a27a7be0.css.map": "/dev/static/css/main.a27a7be0.css.map",
+    "main.e5de0dc9.js.map": "/dev/static/js/main.e5de0dc9.js.map"
   },
   "entrypoints": [
-    "static/css/main.da0943be.css",
-    "static/js/main.8e5d3ea0.js"
+    "static/css/main.a27a7be0.css",
+    "static/js/main.e5de0dc9.js"
   ]
 }
