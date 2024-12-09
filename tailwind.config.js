@@ -12,6 +12,7 @@ module.exports = {
           light:'#81D4FA',
           dark:'#039BE5'
         },
+        neonBlue:'#18A0FB',
 
         neonGreen:'#39FF14'
       },
@@ -19,8 +20,10 @@ module.exports = {
 
       fontFamily:{
         monaco:['Monaco', 'Courier', 'monospace'],
-        fancy:['Lobster','cursive'],
-        pressStart: ['Press Start 2P', 'system-ui']
+        fancy:['Tilt Prism','sans-serif'],
+        game: ['PlayMeGames', 'sans-serif'],
+        Tilt:['Major Birch', 'sans-serif']
+
       },
 
       screens:{

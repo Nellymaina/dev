@@ -26,7 +26,7 @@ AOS.init({
     
     return(
       <div className='h-auto pt-16'>
-        <div className='relative p-2 portrait:min-h-[90vh]  landscape:min-h-[120vh] landscape:sm:max-h[100vh] landscape:md:min-h[100vh] landscape:lg:min-h-[89vh]'>
+        <div className='relative p-2 portrait:min-h-[90vh]   landscape:min-h-[120vh] landscape:sm:max-h[100vh] landscape:md:min-h[100vh] landscape:lg:min-h-[89vh]'>
 
 
 <div className='absolute top-0 left-0 w-3/4 sm:w-1/2 h-20 border-t-4 border-l-4 border-neonGreen'></div>
@@ -47,7 +47,7 @@ AOS.init({
 <div className=''>
           <p className=' absolute h-auto text-3xl  md:text-4xl text-white font-bold flex justify-center'>NELLY MAINA </p>
           <div className='absolute landscape:h-full landscape:lg:h-[70vh] portrait:h-[80vh] inset-0 flex justify-center items-center flex-col pb-2 pt-0'>
-          <p className=" font-pressStart md:font-monaco text-2xl md:text-4xl text-neonGreen ">SOFTWARE <span className=' text-luminousBlue-light'>DEVELOPER</span></p>
+          <p className=" font-game text-2xl md:text-4xl text-neonGreen ">SOFTWARE <span className=' text-luminousBlue-light'>DEVELOPER</span></p>
           <div className=' mt-4 text-white text-[18px] md:text-2xl flex justify-center items-center text-center h-auto sm:w-[50vw] w-[80vw]'><Typewriter words={[ 'Hi, My name is Nelly and I am a Front-End developer','Channeling Creative Ideas and Solving Problems Through Lines Of Code']} loop={1} typeSpeed={70} delaySpeed={1000} deleteSpeed={50}/>
           </div>
           </div>
