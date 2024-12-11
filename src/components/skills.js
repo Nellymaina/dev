@@ -1,5 +1,4 @@
 import React from 'react'
-import data from './skills-data'
 import { DiGit } from "react-icons/di";
 import { SiPython } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
@@ -28,22 +27,20 @@ export default function Skills(){
 
         <div className='flex justify-center items-center mt-4 '>
 
-<div className=' grid grid-cols-4 grid-cols-3 sm:grid-cols-4 gap-4 lg:w-[50vw] w-[100vw] ml-2 mr-2 text-white'>
+<div className=' grid grid-cols-2 sm:grid-cols-4 gap-4 lg:w-[50vw] w-[100vw] ml-2 mr-2 text-white'>
 
-<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] sm:h-[10vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"> <SiPython />
-Python</div>
-<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] sm:h-[10vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"> <SiJavascript /> Javascript </div>
-<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] sm:h-[10vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><SiHtml5 />HTML5 </div>
-<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] sm:h-[10vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><BiLogoCss3 />CSS3</div>
-<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] sm:h-[10vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><SiMongodb /> MongoDB</div>
-<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] sm:h-[10vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><SiReact />React</div>
-<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] sm:h-[10vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><BiLogoNodejs />NodeJS</div>
-<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] sm:h-[10vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><SiExpress />ExpressJS</div>
-<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] sm:h-[10vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><SiTypescript />Typescript</div>
-<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] sm:h-[10vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><DiMysql />MySQL</div>
-<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] sm:h-[10vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><RiNextjsFill />
-NextJS</div>
-<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] sm:h-[10vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"> <DiGit />
+<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] h-[10vh] landscape:h-[20vh]  shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"> <SiPython className='text-[20px] mr-2' /> Python</div>
+<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] h-[10vh] landscape:h-[20vh]  shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"> <SiJavascript className='text-[20px] mr-2' /> Javascript </div>
+<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] h-[10vh] landscape:h-[20vh]  shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><SiHtml5 className='text-[20px] mr-2' /> HTML5 </div>
+<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] h-[10vh] landscape:h-[20vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><BiLogoCss3 className='text-2xl mr-2' /> CSS3</div>
+<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] h-[10vh] landscape:h-[20vh]  shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><SiMongodb className='text-2xl mr-2' /> MongoDB</div>
+<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] h-[10vh] landscape:h-[20vh]  shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><SiReact className='text-2xl mr-2' /> React</div>
+<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] h-[10vh] landscape:h-[20vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><BiLogoNodejs className='text-2xl mr-2'/> NodeJS</div>
+<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] h-[10vh] landscape:h-[20vh]  shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><SiExpress className='text-[20px] mr-2' /> ExpressJS</div>
+<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] h-[10vh] landscape:h-[20vh]   shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><SiTypescript className='text-[20px] mr-2'/> Typescript</div>
+<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] h-[10vh] landscape:h-[20vh]  shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><DiMysql className='text-2xl mr-2' /> MySQL</div>
+<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] h-[10vh] landscape:h-[20vh]  shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"><RiNextjsFill className='text-2xl mr-2'/> NextJS</div>
+<div className="w-auto text-[12px] sm:text-[14px] lg:text-[16px] h-[10vh] landscape:h-[20vh]  shadow shadow-md shadow-neonGreen items-center flex justify-center border border-neonBlue border-2   text-neonBlue p-2"> <DiGit className='text-2xl mr-2' />
 Git Source Control</div>
 
 
