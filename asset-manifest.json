@@ -1,29 +1,17 @@
 {
   "files": {
-    "main.css": "/dev/static/css/main.b4916662.css",
-    "main.js": "/dev/static/js/main.7d1cf661.js",
+    "main.css": "/dev/static/css/main.a10dc9ee.css",
+    "main.js": "/dev/static/js/main.223a62d1.js",
     "static/media/about1.png": "/dev/static/media/about1.b3b98f5fa0abd2788226.png",
-    "static/media/skills5.png": "/dev/static/media/skills5.6170bacefd8a1f69ca74.png",
-    "static/media/skills6.png": "/dev/static/media/skills6.e811791b132d8b40dbcb.png",
-    "static/media/skills9.png": "/dev/static/media/skills9.2f2532db663fd5ec5f95.png",
     "static/media/home.png": "/dev/static/media/home.64481fca7240c0354ace.png",
     "static/media/AI.png": "/dev/static/media/AI.8ae7a7800de9d49dc239.png",
-    "static/media/skills2.png": "/dev/static/media/skills2.b370e224d40f44640360.png",
     "static/media/SE.png": "/dev/static/media/SE.160d58e8c36417a1f954.png",
-    "static/media/skills10.png": "/dev/static/media/skills10.5871a299dfc6d28cd065.png",
-    "static/media/skills11.png": "/dev/static/media/skills11.1d7b133e22ffe4829da6.png",
-    "static/media/skills12.png": "/dev/static/media/skills12.9f33c557b92e4e2e1cc8.png",
-    "static/media/skills13.png": "/dev/static/media/skills13.a6e182e14c2248364006.png",
-    "static/media/skills8.png": "/dev/static/media/skills8.f1a07429fcf04073a41e.png",
-    "static/media/skills1.png": "/dev/static/media/skills1.dfdd0989ffe0184bdd68.png",
-    "static/media/skills4.png": "/dev/static/media/skills4.39a0f4c3d981885c64f8.png",
-    "static/media/skills7.png": "/dev/static/media/skills7.bb13ebd9561a6ee645c2.png",
     "index.html": "/dev/index.html",
-    "main.b4916662.css.map": "/dev/static/css/main.b4916662.css.map",
-    "main.7d1cf661.js.map": "/dev/static/js/main.7d1cf661.js.map"
+    "main.a10dc9ee.css.map": "/dev/static/css/main.a10dc9ee.css.map",
+    "main.223a62d1.js.map": "/dev/static/js/main.223a62d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4916662.css",
-    "static/js/main.7d1cf661.js"
+    "static/css/main.a10dc9ee.css",
+    "static/js/main.223a62d1.js"
   ]
 }
