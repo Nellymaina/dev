@@ -5,6 +5,7 @@ import { MenuOpenRounded } from '@mui/icons-material'
 import {Link as Li, scroller} from 'react-scroll'
 import {motion, AnimatePresence} from 'framer-motion'
 import {useNavigate, useLocation} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 export default function Navbar(){
 
@@ -25,16 +26,15 @@ function handleNavigate(section){
       scroller.scrollTo(section, {
         smooth: true,
         duration: 500,
-        offset: -70,
+        offset: -50,
       });
     }, 100);
 
    
-    
-
   }
   
 }
+
 
   return (
     <div>
@@ -63,34 +63,49 @@ function handleNavigate(section){
           transition={{duration:0.3}}
           >
             <div className=' text-xl bg-black h-screen w-[80vw] sm:[50vw] lg-[40vw]'>
-          <Li  to="about" toggleMenu={toggleMenu} className='border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black '  onClick={ (e) => {
-          toggleMenu()
+          <Li  to="about" toggleMenu={toggleMenu} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black '  onClick={ (e) => {
+if (location.pathname ==='/'){
+  toggleMenu()
+
+}
           if (location.pathname !== "/") {
-            e.preventDefault();
+          e.preventDefault();
             handleNavigate("about");
           }
+        
         }} >About </Li>
-          <Li to="skills" offset={-120} smooth={true} duration={500} className='border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black 'onClick={ (e) => {
-          toggleMenu()
-          if (location.pathname !== "/") {
+          <Li to="skills" offset={-120} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black 'onClick={ (e) => {
+if (location.pathname ==='/'){
+  toggleMenu()
+
+}          if (location.pathname !== "/") {
             e.preventDefault();
             handleNavigate("skills");
           }
         }}>Skills</Li>
-          <Li to="portfolio"  offset={-120} smooth={true} duration={500} className='border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black 'onClick={ (e) => {
-          if (location.pathname !== "/") {
+          <Li to="portfolio"  offset={-120} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black 'onClick={ (e) => {
+            if (location.pathname ==='/'){
+              toggleMenu()
+            
+            }
+            if (location.pathname !== "/") {
             e.preventDefault();
             handleNavigate("portfolio");
           }
-          toggleMenu()
 
         }}>Portfolio</Li>
-          <Li to="contact" offset={-120} smooth={true} duration={500} className='border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={ (e) => {
-          if (location.pathname !== "/") {
+          <Li to="contact" offset={-120} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={ (e) => {
+            if (location.pathname ==='/'){
+              toggleMenu()
+            
+            } 
+            if (location.pathname !== "/") {
              e.preventDefault();
             handleNavigate("contact");
           }
         }}>Contact</Li>
+
+        <Link to='/' offset={-120} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={toggleMenu}>Home</Link>
           </div>
           </motion.div>
           }
