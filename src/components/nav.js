@@ -26,6 +26,7 @@ function handleNavigate(section){
       scroller.scrollTo(section, {
         smooth: true,
         duration: 500,
+        offset:-120
       })
     }, 100);
 

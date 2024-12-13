@@ -8,7 +8,7 @@ export default function Portfolio(){
         <h2 className='sm:text-2xl text-2xl md:text-3xl  inset-0  w-auto font-Tilt flex justify-center   text-neonGreen p-8'>Portfolio</h2>
 <div className="   relative flex justify-center items-center   " >
     <Link to='/portfolio'>
-           <img src={image1} alt="" className="bg-white p-10 flex justify-center w-[80vw] sm:w-[40vw] shadow-lg shadow-neonGreen rounded-lg" /> 
+           <img src={image1} alt="" className="bg-white p-10 flex justify-center w-[80vw] sm:w-[40vw] shadow-sm shadow-white rounded-lg" /> 
            
            </Link>
            </div>
