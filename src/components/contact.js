@@ -46,9 +46,9 @@ const handleSubmit = (e) => {
 
 
     return(
-        <div className="h-auto mt-[16vh] mb-[10vh] ">
+        <div className="h-auto mt-[16vh] mb-[10vh] shadow shadow-lg shadow-neonGreen ">
 
-            <h2 className="sm:text-2xl text-2xl md:text-3xl  inset-0  w-auto shadow shadow-lg shadow-neonGreen rounded-md font-Tilt flex justify-center   text-neonGreen p-8">Contact</h2>
+            <h2 className="sm:text-2xl text-2xl md:text-3xl  inset-0  w-auto  rounded-md font-Tilt flex justify-center   text-neonGreen p-8">Contact</h2>
         
         
             <form className=" mt-4 bg-transparent relative " onSubmit={handleSubmit}>
