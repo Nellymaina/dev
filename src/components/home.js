@@ -48,7 +48,7 @@ AOS.init({
           <p className=' absolute h-auto text-3xl  md:text-4xl text-white font-bold flex justify-center'>NELLY MAINA </p>
           <div className='absolute landscape:h-full landscape:lg:h-[70vh] portrait:h-[80vh] inset-0 flex justify-center items-center flex-col pb-2 pt-0'>
           <p className=" font-game text-2xl md:text-4xl text-neonGreen ">SOFTWARE <span className=' text-luminousBlue-light'>DEVELOPER</span></p>
-          <div className=' mt-4 text-white text-[18px] md:text-2xl flex justify-center items-center text-center h-auto sm:w-[50vw] w-[80vw]'><Typewriter words={[ 'Hi, My name is Nelly and I am a Front-End developer','Channeling Creative Ideas and Solving Problems Through Lines Of Code']} loop={1} typeSpeed={70} delaySpeed={1000} deleteSpeed={50}/>
+          <div className=' mt-4 text-white text-[18px] md:text-2xl flex justify-center items-center text-center h-auto sm:w-[50vw] w-[80vw]'><Typewriter words={[ 'Hi there👋', 'My name is Nelly and I am a Front-End developer','Bringing creative ideas to life through lines of code']} loop={1} typeSpeed={70} delaySpeed={1000} deleteSpeed={50}/>
           </div>
           </div>
           </div>
@@ -61,7 +61,7 @@ AOS.init({
 <div data-aos="zoom-in"  data-aos-easing="ease" className='box'><Element  name="about"><About /></Element></div>
 <Abt />
 <Cert />
-<Element  data-aos="zoom-in"  data-aos-easing="ease" className='box' name="skills"> <Skills /> </Element>
+<Element  data-aos="zoom-in"  data-aos-easing="ease" className='box' name="skills"> <Skills /></Element>
 <Element data-aos="zoom-in"  data-aos-easing="ease" className='box' name='portfolio'><Portfolio/></Element>
 <Element data-aos="zoom-in"  data-aos-easing="ease" className='box' name='contact'><Contact/></Element>
 <Footer />

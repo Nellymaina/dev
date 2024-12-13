@@ -15,7 +15,7 @@ export default function Abt(){
     return(
     <div  className='h-auto pt-[5vh] '>
         <div data-aos="slide-up" data-duration='2000'   data-aos-easing="ease" className='  rounded-md bg-black h-auto pb-4 mb-4'>
-    <h2 className='text-xl sm:text-2xl mb-4 flex justify-center text-bold text-neonBlue font-fancy bg-n'>Technical Skills</h2>
+    <h2 className='text-xl sm:text-2xl mb-4 flex justify-center text-bold text-neonBlue font-fancy '>Technical Skills</h2>
     <p className="text-[16px] text-white sm:text-[18px] mr-4 ml-4 mb-6" >I’m proficient in a range of technologies and tools that help bring ideas to life, including:</p>
 <ul className='list-disc text-white pl-6 space-y-2 ml-6 text-[16px] sm:text-[18px]'>
 <li >Languages: <span className="text-neonGreen font-Tilt text-[18px] sm:text-xl">JavaScript, Python</span> </li>
