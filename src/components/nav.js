@@ -26,8 +26,7 @@ function handleNavigate(section){
       scroller.scrollTo(section, {
         smooth: true,
         duration: 500,
-        offset: -50,
-      });
+      })
     }, 100);
 
    
@@ -74,7 +73,7 @@ if (location.pathname ==='/'){
           }
         
         }} >About </Li>
-          <Li to="skills" offset={-120} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black 'onClick={ (e) => {
+          <Li to="skills" offset={-130} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black 'onClick={ (e) => {
 if (location.pathname ==='/'){
   toggleMenu()
 
@@ -105,7 +104,7 @@ if (location.pathname ==='/'){
           }
         }}>Contact</Li>
 
-        <Link to='/' offset={-120} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={toggleMenu}>Home</Link>
+        <Link to='/' offset={-130} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={toggleMenu}>Home</Link>
           </div>
           </motion.div>
           }
