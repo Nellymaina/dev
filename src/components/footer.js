@@ -4,7 +4,7 @@ import {Link as Li} from 'react-scroll'
 
 export default function Footer(){
     return(
-        <div className=' md:flex justify-between items-center bg-neonGreen text-[14px] text-black h-auto md:p-6 p-0 max-width=[100vw] width=[100%] static'>
+        <div className=' md:flex justify-between items-center bg-neonGreen text-[14px] text-black h-auto md:p-6 max-width=[100vw] width=[100%] static'>
 <p className='w-[100vw]  md:w-auto md:block flex justify-center'>© 2024 Nelly Maina. All rights reserved.</p>
 
   <p className="w-[100vw] md:w-auto md:block flex justify-center mt-2">Email: <a href="mailto:nellymaina095@gmail.com" >nellymaina095@gmail.com</a></p>
