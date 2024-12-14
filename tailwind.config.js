@@ -29,6 +29,7 @@ module.exports = {
       screens:{
         portrait:{raw:"orientation:portrait"},
         landscape:{raw:"orientation:portrait"},
+        xs:{max:'320px'}
 
         
       }
