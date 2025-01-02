@@ -1,5 +1,5 @@
 import React from 'react'
-import image1 from '../images/munchieshub.png'
+import image1 from '../images/munchiez.png'
 import {Link} from 'react-router-dom'
 
 export default function Portfolio(){
@@ -13,7 +13,7 @@ export default function Portfolio(){
            </Link>
            </div>
 
-           <a className="w-full flex pt-4 justify-center" href="https://Nellymaina.github.io/munchieshub/" target="blank" rel="noopener noreferrer" aria-label='Open in new tab'><p className="bg-neonGreen text-black p-2 text-[16px] sm:text-xl rounded-[20px]">Visit website</p></a>
+           <a className="w-full flex pt-4 justify-center" href="https://Nellymaina.github.io/munchiez/" target="blank" rel="noopener noreferrer" aria-label='Open in new tab'><p className="bg-neonGreen text-black p-2 text-[16px] sm:text-xl rounded-[20px]">Visit website</p></a>
         </div>
     )
 }
