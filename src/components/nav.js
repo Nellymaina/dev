@@ -43,11 +43,11 @@ function handleNavigate(section){
           <div className='flex justify-between p-4 w-full '>
         
         <div className='flex space-x-4 '>
-          <a href="https://github.com/NellyMaina" target="blank" rel="noopener noreferrer" aria-label='Open in new tab'><LinkedIn /></a>
+          <a href="https://www.linkedin.com/in/nelly-maina-5a7040213" target="blank" rel="noopener noreferrer" aria-label='Open in new tab'><LinkedIn /></a>
           <a href="https://github.com/NellyMaina" target="blank" rel="noopener noreferrer" aria-label='Open in new tab' ><GitHub  className='text-red-600'/></a>
           </div>
           
-          {menu===true?<MenuOpenRounded onClick={toggleMenu} className='float-right text-orange-400 rounded-full bg-black ' />:<button className='float-right text-red-600 rounded-full bg-black px-2 py-0' onClick={toggleMenu}>X</button>}
+          {menu===true?<MenuOpenRounded onClick={toggleMenu} className='float-right text-neonGreen rounded-full bg-black ' />:<button className='float-right text-red-600 rounded-full bg-black px-2 py-0' onClick={toggleMenu}>X</button>}
           </div>
 
           
