@@ -63,7 +63,7 @@ function handleNavigate(section){
           transition={{duration:0.3}}
           >
             <div className=' text-xl bg-black h-screen w-[80vw] sm:[50vw] lg-[40vw]'>
-          <Li  to="about" toggleMenu={toggleMenu} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black '  onClick={ (e) => {
+          <Li  to="about" toggleMenu={toggleMenu} className='active:text-neonGreen border-b text-white border-gray-200 flex justify-center p-2 hover:bg-red-600 hover:text-black '  onClick={ (e) => {
 if (location.pathname ==='/'){
   toggleMenu()
 
@@ -74,7 +74,7 @@ if (location.pathname ==='/'){
           }
         
         }} >About </Li>
-          <Li to="skills" offset={-130} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black 'onClick={ (e) => {
+          <Li to="skills" offset={-130} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-gray-200 flex justify-center p-2 hover:bg-red-600 hover:text-black 'onClick={ (e) => {
 if (location.pathname ==='/'){
   toggleMenu()
 
@@ -83,7 +83,7 @@ if (location.pathname ==='/'){
             handleNavigate("skills");
           }
         }}>Skills</Li>
-          <Li to="portfolio"  offset={-120} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black 'onClick={ (e) => {
+          <Li to="portfolio"  offset={-120} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-gray-200 flex justify-center p-2 hover:bg-red-600 hover:text-black 'onClick={ (e) => {
             if (location.pathname ==='/'){
               toggleMenu()
             
@@ -94,7 +94,7 @@ if (location.pathname ==='/'){
           }
 
         }}>Portfolio</Li>
-          <Li to="contact" offset={-120} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={ (e) => {
+          <Li to="contact" offset={-120} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-gray-200 flex justify-center p-2 hover:bg-red-600 hover:text-black ' onClick={ (e) => {
             if (location.pathname ==='/'){
               toggleMenu()
             
@@ -105,7 +105,7 @@ if (location.pathname ==='/'){
           }
         }}>Contact</Li>
 
-        <Link to='/' offset={-130} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-golden flex justify-center p-2 hover:bg-golden hover:text-black ' onClick={toggleMenu}>Home</Link>
+        <Link to='/' offset={-130} smooth={true} duration={500} className='active:text-neonGreen border-b text-white border-gray-200 flex justify-center p-2 hover:bg-red-600 hover:text-black ' onClick={toggleMenu}>Home</Link>
           </div>
           </motion.div>
           }
